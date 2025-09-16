@@ -1,0 +1,44 @@
+body{
+    background-color: sienna;
+    background-color: rgba(0,2555,0,1.0); /* rgb 0-255 */
+    background-color: #999999;
+
+    /* write in comment in css*/
+
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+
+}
+h2{
+    font-family: cursive;
+    text-transform: capatilize;
+}
+
+ul{
+    list-style: square;
+}
+
+ul li{
+    color: blue;
+}
+
+li{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
+img{
+    width: 300px;
+}
