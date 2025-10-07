@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Main Attractions of Miami, FL</title>
         <meta name="author name" content="Aly Fuentes">
         <meta name="description" content="A blog highlighting the city of Miami, FL's most popular attractions and sights">
         <meta name="keywords" content="Miami beach, 305, Night life, South Florida, Calle Ocho, Art basel">
+        <title>Main Attractions of Miami, FL</title>
+            <link rel="stylesheet" href="style.css">
+
         <!-- Example of a comment -->
          
          <meta charset="UTF-8">
@@ -17,26 +19,35 @@
             </header>
 
             <!--<abbr title="World Health Organization">WHO</abbr> (example of text level tag; abbr in this case)-->
-            
+         <nav>
+          <ul>
+            <li><a href="#topthings">Top Things to Do</a></li>
+            <li><a href="#food">Where to Eat</a></li>
+            <li><a href="#neighborhoods">Neighborhoods</a></li>
+            <li><a href="#besttime">Best Time to Visit</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Author Info</a></li>
+          </ul>
+        </nav>
+
     <main>
-        <section>
-            <h2>Top Things to do in Miami</h2>
-            <p>Most locals enjoy soaking up the sun on South Beach, exploring Wynwood's colorful murals, and savoring authentic Cuban flavors in Little Havana. Miami is full of must-see experiences, whether you're chasing nightlife, art, or coastal views, the city offers something for every vibe.
-</p>
+        <section id="topthings">
+            <h2 class="section-title">Top Things to do in Miami</h2>
+            <p><span class="highlight">Most locals enjoy soaking up the sun on South Beach</span>, exploring Wynwood's colorful murals, and savoring authentic Cuban flavors in Little Havana.</p>
         </section>
-        <section>
-                <h2> Where to Eat and Drink in Miami</h2>
-                <p>Miami's food scene is as diverse as its people, blending Latin, Caribbean, and global flavors. Cuban coffee and pastelitos in Little Havana and fresh seafood on a waterfront is a common pastime, as well as rooftop cocktails in Brickell. The city offers endless ways to taste its culture.
-.</p>
+
+        <section class="card" id="food">
+                <h2 class="section-title"> Where to Eat and Drink in Miami</h2>
+                <p><span class="highlight">Miamis food scene is as diverse as its people</span>, blending Latin, Caribbean, and global flavors. Cuban coffee and pastelitos in Little Havana and fresh seafood on a waterfront is a common pastime, as well as rooftop cocktails in Brickell. The city offers endless ways to taste its culture.</p>
         </section>
 
    
     <!-- https://coconutgrove.com/ (this is the link for the grove)-->
 
 
-        <section>
+        <section class="card" id="neighborhoods">
 
-            <h2>Famous Neighborhoods</h2>
+            <h2 class="section-title">Famous Neighborhoods</h2>
             <ol>
                 <li><a href="https://www.coralgables.com/" target="_blank">Coral Gables</a><li>
                 <li><a href="https://coconutgrove.com/" target="_blank">Coconut Grove</a></li>
@@ -47,8 +58,8 @@
 
         <!--<em>emphasized</em> (this is an em tag)-->
 
-        <section> 
-            <h2> Best Time to Visit</h2>
+        <section id="besttime">
+    <h2 class="section-title">Best Time to Visit</h2>
             <ul> 
                 <li><em>Spring</em> (March-May): Warm temperatures, lively festivals, and fewer crowds.</li>
                 <li><em>Summer</em> (June-August): Hot, humid, expect afternoon storms.</li>
@@ -57,20 +68,20 @@
 
             </section>
 
-            <section>
+            <section id="gallery">
 
-            <h3>Image Gallery</h3>
-            <figure>
+            <h3 class="section-title">Image Gallery</h3>
+            <figure class="card">
                 <img src="images/car.jpg" alt="Classic car in Miami streets"> 
                 <figcaption>This car was often seen in the city of Miami around the 2000's.</figcaption>
             </figure>
 
-            <figure>
+            <figure class="card">
                 <img src="images/miamibeach.jpg" alt="This is Miami Beach">
                 <figcaption>Miami Beach is one of Miami's most populated beaches.</figcaption>
             </figure>
 
-            <figure>
+            <figure class="card">
                 <img src="images/sand.jpg" alt="Golden sand on a Miami beach in spring">
                 <figcaption>This is what most beaches in Miami look like during the spring.</figcaption>
             </figure>
@@ -79,7 +90,9 @@
 
 
     </main>
-    <footer><h4>Author Info</h4>
-        <p>Aly Fuentes is an Innovation, Tech and Design major in the College of Engineering at the University of Miami. She was born and raised in the city of Miami, FL and her family was born in Cuba. She enjoys living in Miami and plans to stay in the upcoming years, as well as a student in the University's Web Lab class.</p></footer>
+    <footer id="contact">
+        <h4>Author Info</h4>
+        <p>Aly Fuentes is an Innovation, Tech and Design major in the College of Engineering at the University of Miami. She was born and raised in the city of Miami, FL and her family was born in Cuba. She enjoys living in Miami and plans to stay in the upcoming years, as well as a student in the University's Web Lab class.</p>
+    </footer>
 </body>
 </html>
